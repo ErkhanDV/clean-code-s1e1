@@ -37,12 +37,13 @@ body {
 .new-task-content {
   display: flex;
 }
-ul {
+.todo-content,
+.completed-content {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+.todo-task,
+.section-title {
   list-style: none;
 }
 input,
@@ -62,7 +63,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.section-title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -93,7 +94,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.new-task__input {
   width: 318px;
 }
 
@@ -122,12 +123,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-button.delete img {
+.todo-task__button-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.todo-task__button-delete:hover {
   transform: rotateZ(0);
 }
 
