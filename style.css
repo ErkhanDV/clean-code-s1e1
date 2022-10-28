@@ -65,8 +65,8 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.new-task__button,
-.todo-task__button-edit,
+.new-task__button:hover,
+.todo-task__button-edit:hover,
 .todo-task__button-delete:hover {
   color: #3a3a3a;
 }
