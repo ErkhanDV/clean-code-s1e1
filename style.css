@@ -128,11 +128,11 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
+  width: 90%;
 }
 .list-element > .new-task__input,
 .list-element > .todo-task__input {
-  width: 226px;
+  width: 90%;
 }
 .delete-button-img {
   height: 2em;
@@ -158,7 +158,7 @@
 .todo-task_edit .new-task__input,
 .todo-task_edit .todo-task__input {
   display: inline-block;
-  width: 224px;
+  width: 90%;
 }
 
 .todo-task_edit .todo-task__label {
