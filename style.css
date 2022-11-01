@@ -117,10 +117,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.list-element > * {
-  vertical-align: middle;
-}
-
 .list-element > .input-checkbox {
   margin: 0 10px;
 }
