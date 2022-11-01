@@ -144,7 +144,7 @@
 }
 
 /* Completed */
-#completed-content .todo-task__label {
+.completed-list__ul .todo-task__label {
   text-decoration: line-through;
   color: #888;
 }
